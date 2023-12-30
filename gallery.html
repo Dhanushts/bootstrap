@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Gallery</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for the image gallery */
+    .carousel-inner img {
+      width: 100%;
+      height: 400px; /* Adjust the height as needed */
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Gallery</h1>
+
+  <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#imageCarousel" data-slide-to="1"></li>
+      <li data-target="#imageCarousel" data-slide-to="2"></li>
+      <!-- Add more indicators for each image -->
+    </ul>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="gal12.jpg" alt="Image 1" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="gal11.jpg" alt="Image 2" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="gal10.jpg" alt="Image 3" class="d-block">
+      </div>
+        <div class="carousel-item">
+        <img src="gal9.jpg" alt="Image 4" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal8.jpg" alt="Image 5" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal7.jpg" alt="Image 6" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal6.jpg" alt="Image 7" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal5.jpg" alt="Image 8" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal4.jpg" alt="Image 9" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal3.jpg" alt="Image 3" class="d-block">
+      </div>
+  <div class="carousel-item">
+        <img src="gal2.jpg" alt="Image 3" class="d-block">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#imageCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#imageCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div>
+
+<!-- Link to Bootstrap JS (make sure to include jQuery and Popper.js before Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

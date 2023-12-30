@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS styles remain unchanged */
+ body {
+      background: rgba(0, 0, 0, 0.7) url('food.jpg') center center fixed;
+            background-size: cover;
+            background-blend-mode: darken;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #contact {
+      text-align: left;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+
+    h3 {
+      margin-top: 30px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .social-media {
+      position: absolute;
+      bottom: 10px;
+      right: 10px; /* Align to the right */
+      text-align: right;
+    }
+
+    .social-media img {
+      margin-left: 5px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <section id="contact">
+    <h2>Queries Form</h2>
+  
+    <p>For inquiries or assistance, please fill out the form below or contact us directly:</p>
+  
+    <form action="https://www.kvgrestaurant.com/contact">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="kvgrestaurant@gmail.com" required><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+      <!-- Input Group for "Things you Attract" -->
+      <div>
+        <label>Things you Attract:</label>
+        <input type="checkbox" name="attract" value="site design" checked> Site Design
+        <input type="checkbox" name="attract" value="images"> Images
+      </div>
+      
+      <!-- Input Group for "Rating" -->
+      <div>
+        <label>Rating:</label>
+        <select name="rating">
+          <option selected>Amazing</option>
+          <option>Excellent</option>
+          <option>Very good</option>
+          <option>good</option>
+          <option>satisfaction</option>
+          <option>poor</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Clear">
+    </form>
+  
+    <h3>Contact Information</h3>
+  
+    <p>Phone: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+    <p>Email: <a href="mailto:info@kvgrestaurant.com">info@kvgrestaurant.com</a></p>
+    <p>Address: 123 Manmangalam, Karur, TamilNadu</p>
+  </section>
+  <a href="index1.html">Back</a>
+  <div class="social-media">
+    <!-- Social media icons remain unchanged -->
+ <h2 class="text-white">Stay Connected</h2>
+  <a href="https://www.facebook.com/rx" target="_blank"><img src="facebook.jpeg" alt="Facebook" width="30" height="30"></a>
+    <a href="https://twitter.com/rx" target="_blank"><img src="twitter.png" alt="Twitter" width="30" height="30"></a>
+    <a href="https://www.instagram.com/rx" target="_blank"><img src="insta.jpeg" alt="Instagram" width="30" height="30"></a>
+    <a href="https://www.whatsapp.com/rx" target="_blank"><img src="whatsapp.jpeg" alt="Whatsapp" width="30" height="30"></a>
+  </div>
+</body>
+</html>
